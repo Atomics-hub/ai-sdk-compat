@@ -1,0 +1,24 @@
+name: Compatibility request
+description: Propose support for an additional AI SDK migration shape
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: AI SDK versions
+      description: Exact source and target versions
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Upstream migration contract
+      description: Link the official guide or shipped source that defines the change
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Before and after
+      description: Provide minimal JSON-compatible old and current shapes
+    validations:
+      required: true

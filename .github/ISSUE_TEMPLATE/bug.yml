@@ -1,0 +1,22 @@
+name: Bug report
+description: Report incorrect migration or compatibility behavior
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: ai-sdk-compat, AI SDK, Node.js, and package-manager versions
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Minimal input and code
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual output
+    validations:
+      required: true
