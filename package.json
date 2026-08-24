@@ -78,7 +78,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
     "@eslint/js": "^10.0.1",
-    "@types/node": "^22.18.0",
+    "@types/node": "^26.2.0",
     "@vitest/coverage-v8": "^4.1.11",
     "ai": "^7.0.77",
     "ai-v6": "npm:ai@^6.0.264",
