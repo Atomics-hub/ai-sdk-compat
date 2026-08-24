@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 - 2026-08-23
+## 0.1.0 - 2026-08-24
 
 - Migrate persisted AI SDK 4 UI messages to the parts-based format.
 - Normalize renamed call options and language-model usage details through AI SDK 7.
