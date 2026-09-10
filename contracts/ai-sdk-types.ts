@@ -18,4 +18,4 @@ const usage6: LanguageModelUsage6 =
 const usage7: LanguageModelUsage7 =
   migrateLanguageModelUsage<LanguageModelUsage7>(usage).value;
 
-void [message6, message7, usage6, usage7];
+export const contracts = [message6, message7, usage6, usage7];
