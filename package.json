@@ -79,7 +79,7 @@
     "@arethetypeswrong/cli": "^0.18.5",
     "@eslint/js": "^10.0.1",
     "@types/node": "^26.2.0",
-    "@vitest/coverage-v8": "^4.1.11",
+    "@vitest/coverage-v8": "^5.0.0",
     "ai": "^7.0.77",
     "ai-v6": "npm:ai@^6.0.264",
     "eslint": "^10.9.0",
@@ -89,6 +89,6 @@
     "tsup": "^8.5.0",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.67.0",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.0"
   }
 }
